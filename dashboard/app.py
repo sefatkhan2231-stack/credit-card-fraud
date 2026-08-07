@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 
+from pathlib import Path
+
 from config import page_config
 from utils import (
     load_csv,
@@ -40,12 +42,16 @@ page_config()
 
 def load_css():
 
-    with open("./assets/style.css") as f:
+    css_file = Path(__file__).parent / "assets" / "style.css"
 
-        st.markdown(
-            f"<style>{f.read()}</style>",
-            unsafe_allow_html=True
-        )
+    if css_file.exists():
+
+        with open(css_file, encoding="utf-8") as f:
+
+            st.markdown(
+                f"<style>{f.read()}</style>",
+                unsafe_allow_html=True
+            )
 
 load_css()
 
