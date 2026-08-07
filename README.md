@@ -18,7 +18,7 @@ An end-to-end Machine Learning project that detects fraudulent credit card trans
 
 **Streamlit App**
 
-https://your-streamlit-app-url.streamlit.app
+[https://your-streamlit-app-url.streamlit.app](https://credit-card-fraud-jrvqt2glbkq6oj25dkuuqt.streamlit.app/)
 
 ---
 
