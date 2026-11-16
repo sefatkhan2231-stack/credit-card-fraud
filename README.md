@@ -1,6 +1,6 @@
 # 💳 Credit Card Fraud Detection using Machine Learning
 
-An end-to-end Machine Learning project that detects fraudulent credit card transactions using a **Random Forest Classifier** trained on an imbalanced dataset. The project includes data preprocessing, SMOTE oversampling, model evaluation, feature importance analysis, and an interactive **Streamlit dashboard** for real-time predictions.
+An end-to-end Machine Learning project that detects fraudulent credit card transactions using a **Random Forest Classifier** trained on an imbalanced dataset. The project includes data preprocessing, SMOTE oversampling, model evaluation, feature importance analysis, and an interactive  **Streamlit dashboard** for real-time predictions.
 
 ---
 
@@ -18,7 +18,7 @@ An end-to-end Machine Learning project that detects fraudulent credit card trans
 
 **Streamlit App**
 
-https://your-streamlit-app-url.streamlit.app
+https://credit-card-fraud-jrvqt2glbkq6oj25dkuuqt.streamlit.app/
 
 ---
 
